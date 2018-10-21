@@ -1,0 +1,210 @@
+.answers {
+    transition: .5s background;
+    background: transparent;
+}
+
+
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-size: 100vw;
+    margin: 0;
+
+
+}
+
+html {}
+
+* {
+    box-sizing: content-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(img/image9.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    flex-direction: column;
+
+}
+
+.container-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(img/image19.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.cont-end {
+    background: rgba(220, 220, 220, 0.7);
+    width: 35rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+li {
+    list-style-type: none;
+    padding: 0.5rem 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.3rem;
+    margin: 0;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin-top: 1rem;
+}
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.list-title {
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+
+.congrat {
+    font-size: 2rem;
+}
+
+.header {
+    font-size: 6rem;
+    color: white;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    background: rgba(10, 10, 10, 0.8);
+}
+
+.answers {
+    display: flex;
+    width: 20rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.answer {
+    margin-bottom: 0.5rem;
+    background: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border: 3px ridge black;
+    border-radius: 5px;
+    width: 20rem;
+    font-family: 'Open Sans', sans-serif;
+    height: 5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextQuestion {
+    width: auto;
+    cursor: pointer;
+    user-select: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    white-space: nowrap;
+    font-size: 2rem;
+    background: white;
+    margin-top: 0.5rem;
+
+}
+
+.earnedPoints {
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: right;
+    margin-top: 1.5rem;
+
+}
+
+.ansCounter {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.question {
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.container-game {
+    height: 100vh;
+    transition-duration: 4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(img/image20.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.game-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(250, 250, 250, 0.7);
+    border-radius: 30px;
+    width: 30rem;
+    padding: 2rem;
+}
+
+.startBtn {
+    background-color: rgba(200, 200, 200, 0.7);
+    width: 20rem;
+    height: 15%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+
+}
+
+.correct {
+    background: green;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+}
+
+.wrong {
+    background: red;
+    transition-duration: .5s;
+}
