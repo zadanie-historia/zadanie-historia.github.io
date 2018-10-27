@@ -4,20 +4,15 @@
 }
 
 
-
+html{
+    height: 100%;
+}
 body {
     width: 100vw;
-    height: 100vh;
     background-size: 100vw;
     margin: 0;
+    height: 100%;
 
-
-}
-
-html {}
-
-* {
-    box-sizing: content-box;
 }
 
 .container {
@@ -44,7 +39,18 @@ html {}
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    flex-direction: column;
+}
+
+.background {
+    position: fixed;
+    width: 100%;
+    height: 110vh;
+    z-index: -50;
+    background: url(img/image19.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .cont-end {
@@ -61,15 +67,18 @@ html {}
 li {
     list-style-type: none;
     padding: 0.5rem 0;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Mali', cursive;
+
     font-size: 1.3rem;
     margin: 0;
 }
-.link{
+
+.link {
     text-decoration: none;
     color: black;
     margin-top: 1rem;
 }
+
 ul {
     margin: 0;
     padding: 0;
@@ -100,9 +109,11 @@ ul {
     display: flex;
     width: 20rem;
     align-items: center;
+
     flex-wrap: wrap;
     justify-content: center;
     margin-top: 1rem;
+    flex-shrink: 0;
 }
 
 .answer {
@@ -112,6 +123,7 @@ ul {
     border: 3px ridge black;
     border-radius: 5px;
     width: 20rem;
+    height: 10vh;
     font-family: 'Open Sans', sans-serif;
     height: 5rem;
     font-size: 1rem;
@@ -128,25 +140,23 @@ ul {
     user-select: none;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    padding: 2rem;
+    padding: 2vh;
     font-family: 'Ubuntu', sans-serif;
     white-space: nowrap;
     font-size: 2rem;
     background: white;
-    margin-top: 0.5rem;
-
 }
 
 .earnedPoints {
     display: flex;
     font-family: 'Ubuntu', sans-serif;
     justify-content: right;
-    margin-top: 1.5rem;
+    margin-top: 1.5vw;
 
 }
 
 .ansCounter {
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-family: 'Ubuntu', sans-serif;
 
 }
@@ -154,21 +164,21 @@ ul {
 .question {
     font-size: 2rem;
     font-family: 'Ubuntu', sans-serif;
+
+    flex-shrink: 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container-game {
-    height: 100vh;
     transition-duration: 4s;
     display: flex;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(img/image20.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
 }
 
@@ -179,7 +189,9 @@ ul {
     background: rgba(250, 250, 250, 0.7);
     border-radius: 30px;
     width: 30rem;
-    padding: 2rem;
+    flex-shrink: 0;
+    margin-top: 4rem;
+    padding: 0.5rem;
 }
 
 .startBtn {
@@ -207,4 +219,8 @@ ul {
 .wrong {
     background: red;
     transition-duration: .5s;
+}
+
+.question img {
+    width: 10rem;
 }

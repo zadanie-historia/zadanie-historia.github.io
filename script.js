@@ -9,6 +9,9 @@ let questions = ["" /*pierwsze ma być puste */ ,
     "Jakie straty poniosły Wojska Polskie w wyniku śmierci żołnierzy?",
     "Które państwo nie udzieliło aktywnej pomocy w powstaniu? ",
     "Jak nazwany został zdobyczny czołg PzKpfw V Panther",
+    "co to za kitku? <img src='https://i.imgur.com/1TBBvKj.jpg'>",
+    "jakiego sławnego twojego starego przedstawia ten kitku ? <img src='https://i.imgur.com/AD3MbBi.jpg'>",
+   
 ]; // po przecinku dodajesz pytania
 let answers = [
     [ /* to ma być puste */ ],
@@ -21,10 +24,12 @@ let answers = [
     ["12:00", "14:30", "10:00", "17:00"],
     ["10 tys.", "16 tys.", "20 tys.", "23 tys."],
     ["ZSRR", "Wielka Brytania", "USA", "III Rzesza"],
-    ["Magda", "Kubuś", "Armia Krajowa", "Pudel"]
+    ["Magda", "Kubuś", "Armia Krajowa", "Pudel"],
+    ["dfs", "sfd", "sdf", "fdsfds"],
+    ["dfsdfs", "sffdsfdsd", "sdsffdsdf", "fdsfddsffdss"]
 
 ];
-let correctAnswer = ["" /*pierwsza pusta, litery z DUŻEJ */ , "A", "D", "C", "B", "A", "A", "D", "B", "A", "D"];
+let correctAnswer = ["" /*pierwsza pusta, litery z DUŻEJ */ , "A", "D", "C", "B", "A", "A", "D", "B", "A", "D",/* testowe odpowiedzi */ "A", "A"];
 
 //definicja zmiennych 
 let questionCounter = document.getElementById("counter");
@@ -37,7 +42,7 @@ let pointsEarned = document.getElementById("points-earned");
 document.getElementById("maxQuestions").textContent = questions.length;
 document.getElementById("maxQuestions").textContent -= 1;
 let changeQuestion = () => {
-    currentQuestionEl.textContent = questions[questionCounter.textContent];
+    currentQuestionEl.innerHTML = questions[questionCounter.textContent];
     odpaEl.textContent = answers[+questionCounter.textContent][0];
     odpbEl.textContent = answers[+questionCounter.textContent][1];
     odpcEl.textContent = answers[+questionCounter.textContent][2];
@@ -99,6 +104,6 @@ let l = 0;
 setInterval(()=>{
     
     if(l == 24){l=0}
-    document.getElementsByClassName("container-game")[0].style.background = `url(img/image${l}.jpg)`;
+    document.getElementsByClassName("background")[0].style.background = `url(img/image${l}.jpg)`;
     l++;
 },19000)
