@@ -143,6 +143,8 @@ let checkingEnd = () => {
 
         document.getElementById("nextQuestion").removeEventListener("click", changeQuestion)
         document.getElementById("nextQuestion").textContent = "Przejdź do podsumowania";
+        document.getElementById("nextQuestion").removeEventListener("click", mainFunction );
+        
 
         document.getElementById("nextQuestion").addEventListener("click", () => {
 
@@ -154,8 +156,7 @@ let checkingEnd = () => {
 for (let x = 0; x <= 3; x++) {
     document.getElementsByClassName("answer")[x].addEventListener("click", checkingQuestion);
 }
-
-document.getElementById("nextQuestion").addEventListener("click", () => {
+let mainFunction = () =>{
     clearClasses();
 
     document.getElementById("counter").textContent++;
@@ -166,7 +167,8 @@ document.getElementById("nextQuestion").addEventListener("click", () => {
     for (let x = 0; x <= 3; x++) {
         document.getElementsByClassName("answer")[x].addEventListener("click", checkingQuestion);
     }
-});
+}
+document.getElementById("nextQuestion").addEventListener("click", mainFunction);
 let l = 0;
 setInterval(() => {
 
