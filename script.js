@@ -34,7 +34,7 @@ let answers = [
     [ /* to ma być puste */ ],
     /*1*/ ["1 sierpnia", "2 sierpnia", "1 lipca", "2 lipca"],
     /*2*/ ["60 dni", "32 dni", "58 dni", "63 dni"],
-    /*3*/ ["Tornado", "Sztorm", "Burza", "Powódź"],
+    /*3*/ ["Trafienie bombą lotniczą", "Trafienie z działa pancernego", "Trafienie pociskiem ciężkiego moździerza", "Wybuch poprzednio podłożonej bomby"],
     /*4*/ ["Michaś", "Julcia", "Jacek", "Kubuś"],
     /*5*/ ["Tadeusz Bór-Komorowski, Antoni Chruściel, Tadeusz Pełczyński, Leopold Okulicki", "Tadeusz Kutrzeba, Władysław Bortnowski, Franciszek Wład", "Józef Unrug, Kazimierz Fabrycy, Franciszek Kleeberg, Stefan Rowecki", "Juliusz Rómmel, Tadeusz Pełczyński, Aleksander Kamiński"],
     /*6*/ ["Ożarów ", "Żoliborz ", "Mokotów ", "Psie Pole"],
