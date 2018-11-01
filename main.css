@@ -1,7 +1,8 @@
 /* global css */
-*{
+* {
     box-sizing: border-box;
 }
+
 li {
     list-style-type: none;
     padding: 0.5rem 0;
@@ -131,16 +132,7 @@ body {
     height: 100%;
 }
 
-.correct {
-    background: green;
-    transition-duration: .5s;
-    transition-timing-function: ease-in;
-}
 
-.wrong {
-    background: red;
-    transition-duration: .5s;
-}
 
 .answers {
     display: flex;
@@ -230,24 +222,39 @@ body {
 }
 
 @media (max-width:1023px) and (min-width: 300px) {
-    body{
+    body {
         width: 90%;
     }
-    .game-cont{
+    .game-cont {
         width: 90vw;
         margin-left: 24%;
     }
-    .answers{
+
+    .answers {
         width: 80vw;
     }
-    .answer{
+
+    .answer {
         width: 90vw;
     }
-    .container-game{
+
+    .container-game {
         width: 90%;
     }
-    .background{
+
+    .background {
         width: 100%;
     }
-    
+
+}
+
+.correct {
+    background: green;
+    transition-duration: .5s;
+    transition-timing-function: ease-in;
+}
+
+.wrong {
+    background: red;
+    transition-duration: .5s;
 }
