@@ -1,22 +1,22 @@
 let questions = ["" /*pierwsze ma być puste */ ,
-    /*1*/"Którego dnia rozpoczęło się powstanie?", 
-    /*2*/"Ile trwało Powstanie warszawskie? ",
-    /*3*/"Poniższe zdjęcie przedstawia gmach Prudentialu. Co spowodowało eksplozję?<img src='https://www.wykop.pl/cdn/c3201142/comment_ZdngWQRlS7oG9r2RcYRR0iGQKPckwLM0.jpg'>", 
-    /*4*/"Improwizowany samochód pancerny, konstrukcji polskiej, zbudowany w 13 dni, na Powiślu i użyty w czasie powstania warszawskiego nosił nazwę:<img src='https://s8.dziennik.pl/pliki/5247000/5247957-272291-643-475.jpg'>",
-    /*5*/"Pod czyim dowództwem poprowadzone zostało Powstanie?",
-    /*6*/"Gdzie podpisano akt kapitulacji powstania?",
-    /*7*/"Co przedstawia poniższe zdjęcie? <img src='https://upload.wikimedia.org/wikipedia/commons/9/95/Bundesarchiv_Bild_183-97906%2C_Warschauer_Aufstand%2C_Stra%C3%9Fenkampf.jpg'>",
-    /*8*/"Jakie straty poniosły Wojska Polskie w wyniku śmierci żołnierzy?",
-    /*9*/"Zgodnie z rozkazem wydanym przez płk. 'Montera' Powstanie Warszawskie wybuchło 1 sierpnia o godz. 17, ale starcia z Niemcami rozpoczęły się wcześniej. W której dzielnicy doszło do pierwszej wymiany ognia?",
-    /*10*/"Jak nazwany został zdobyczny czołg PzKpfw V Panther?",
-    /*11*/"Kto wydał rozkaz rozpoczęcia powstania?",
-    /*12*/"Jak nazywało się radio nadające na terenie warszawy w trakcie powstania?",
+    /* 1*/"Którego dnia rozpoczęło się Powstanie Warszawskie?", 
+    /* 2*/"Ile trwało Powstanie Warszawskie? ",
+    /* 3*/"Poniższe zdjęcie przedstawia gmach Prudentialu. Co spowodowało eksplozję?<img src='https://www.wykop.pl/cdn/c3201142/comment_ZdngWQRlS7oG9r2RcYRR0iGQKPckwLM0.jpg'>", 
+    /* 4*/"Improwizowany samochód pancerny, konstrukcji polskiej, zbudowany w 13 dni, na Powiślu i użyty w czasie Powstania Warszawskiego nosił nazwę:<img src='https://s8.dziennik.pl/pliki/5247000/5247957-272291-643-475.jpg'>",
+    /* 5*/"Pod czyim dowództwem poprowadzone zostało Powstanie Warszawskie?",
+    /* 6*/"Gdzie podpisano akt kapitulacji Powstania Warszawskiego?",
+    /* 7*/"Co przedstawia poniższe zdjęcie? <img src='https://upload.wikimedia.org/wikipedia/commons/9/95/Bundesarchiv_Bild_183-97906%2C_Warschauer_Aufstand%2C_Stra%C3%9Fenkampf.jpg'>",
+    /* 8*/"Jakie straty poniosły Wojska Polskie w wyniku śmierci żołnierzy?",
+    /* 9*/"Zgodnie z rozkazem wydanym przez płk. 'Montera' Powstanie Warszawskie wybuchło 1 sierpnia o godz. 17, ale starcia z Niemcami rozpoczęły się wcześniej. W której dzielnicy doszło do pierwszej wymiany ognia?",
+    /* 10*/"Jak nazwany został zdobyczny czołg PzKpfw V Panther?",
+    /*11*/"Kto wydał rozkaz rozpoczęcia Powstania Warszawskiego?",
+    /*12*/"Jak nazywało się radio nadające na terenie Warszawy w trakcie powstania?",
     /*13*/"Kto w trakcie powstania dowodził oddziałami karnymi SS stworzonymi do walki z powstańcami?",
     /*14*/"Co było przyczyną masakry na Kilińskiego?",
-    /*15*/"Kiedy odbyła się największa bitwa powstania?",
+    /*15*/"Kiedy odbyła się największa bitwa Powstania Warszawskiego?",
     /*16*/"Ile osób zginęło w wyniku rzezi Woli?", 
     /*17*/"Dnia 1 sierpnia 1944 odbyłą się narada w wyniku której A. Hitler wydał rozkaz dotyczący Warszawy, oczekiwał on:",
-    /*18*/"W ramach jakiej akcji wybuchło powstanie?",
+    /*18*/"W ramach jakiej akcji wybuchło Powstanie Warszawskie?",
     /*19*/"Jak nazywała się zupa robiona z rozgotowanego ziarna?",
     /*20*/"Czym była Brygada Szturmowa SS RONA?", 
     /*21*/"Która godzina jest godziną W?" ,
@@ -27,31 +27,31 @@ let questions = ["" /*pierwsze ma być puste */ ,
     /*26*/"W czasie powstania Warszawa była nękana przez lotnictwo niemieckie głównie przy użyciu Sztukasów, były to:<img src='http://www.aresgames.eu/wp/wp-content/uploads/2017/04/610x250_Ju-87B-StG-77-610x250.gif'>",
     /*27*/"Jak nazywały się pistolety maszynowe tworzone w Warszawie na potrzeby powstania?",
     /*28*/"Biało-czerwone opaski zakładane przez powstańców na ramię miały odciśnięty pieczęcią wizerunek orła, a po bokach litery:",
-    /*29*/"W powstaniu brało udział:",
-    /*30*/"Które państwo nie udzieliło aktywnej pomocy w powstaniu?"
+    /*29*/"W Powstaniu Warszawskim brało udział:",
+    /*30*/"Które państwo nie udzieliło aktywnej pomocy w Powstaniu Warszawskim?"
 ]; // po przecinku dodajesz pytania
 let answers = [
     [ /* to ma być puste */ ],
-    /*1*/ ["1 sierpnia", "2 sierpnia", "1 lipca", "2 lipca"],
+     /* 1*/ ["1 sierpnia", "2 sierpnia", "1 lipca", "2 lipca"],
     /*2*/ ["60 dni", "32 dni", "58 dni", "63 dni"],
     /*3*/ ["Trafienie bombą lotniczą", "Trafienie z działa pancernego", "Trafienie pociskiem ciężkiego moździerza", "Wybuch poprzednio podłożonej bomby"],
     /*4*/ ["Michaś", "Julcia", "Jacek", "Kubuś"],
     /*5*/ ["Tadeusz Bór-Komorowski, Antoni Chruściel, Tadeusz Pełczyński, Leopold Okulicki", "Tadeusz Kutrzeba, Władysław Bortnowski, Franciszek Wład", "Józef Unrug, Kazimierz Fabrycy, Franciszek Kleeberg, Stefan Rowecki", "Juliusz Rómmel, Tadeusz Pełczyński, Aleksander Kamiński"],
     /*6*/ ["Ożarów ", "Żoliborz ", "Mokotów ", "Psie Pole"],
     /*7*/ ["Oddziały SS", "Powstańców", "Rosyjskich żołnierzy wspierających powstanie", "Brytyjskich spadochroniarzy zrzuconych na terenie Warszawy"],
-    /*8*/ ["10 tys.", "16 tys.", "20 tys.", "23 tys."],
+    /*8*/ ["16 tys.", "10 tys.", "20 tys.", "23 tys."],
     /*9*/ ["Mokotów", "Żoliborz", "Śródmieście", "Praga"],
-    /*10*/ ["Magda", "Kubuś", "Armia Krajowa", "Pudel"],
+    /*10*/ ["Pudel", "Kubuś", "Armia Krajowa", "Magda"],
  	/*11*/ ["Tadeusz Komorowski", "Tadeusz Pełczyński", "Władysław Bortnowski", "Antoni Chruściel"],
 	/*12*/ ["Warszawa", "Radio Powstańcze", "Błyskawica", "Wolność"],
     /*13*/ ["Oskar Dirlewanger", "Reiner Stahel", "Paul Otto Geibel", "Adolf Hitler"],
     /*14*/ ["Nalot niemiecki", "Rozstrzelanie dużej grupy cywilów", "Ostrzał artyleryjski", "Eksplozja zdobycznej jednostki niemieckiej"],
     /*15*/ ["2 października 1944", "12 sierpnia 1944", "29 września 1944", "1 września 1944"],
-    /*16*/ ["10 - 20 tys.", "30 - 60 tys.", "40 - 50 tys.", "50 - 80 tys."],
+    /*16*/ ["10 - 20 tys.", "30 - 65 tys.", "40 - 50 tys.", "50 - 80 tys."],
     /*17*/ ["Całkowitego zniszczenia Warszawy", "Odwrotu wojsk niemieckich z Warszawy", "Stłumienie powstania w sposób jak najmniej destrukcyjny dla miasta i jego zabytków", "Uratowania jak największej ilości cywili"],
     /*18*/ ["Tornado", "Sztorm", "Burza", "Powódź"],
     /*19*/ ["Pluj-zupka", "Ściera", "Wodnica", "Biedna"],
-    /*20*/ ["Zwykłe oddziały szturmowe SS", "Oddziały SS specjalizujące się w działaniach za liniami wroga", "Oddziały SS złożone z rosjan i białorusinów", "Brygada wchodząca w skład niemieckiej 9. Armii"],
+    /*20*/ ["Zwykłe oddziały szturmowe SS", "Oddziały SS specjalizujące się w działaniach za liniami wroga", "Oddziały SS złożone z Rosjan i Białorusinów", "Brygada wchodząca w skład niemieckiej 9. Armii"],
     /*21*/ ["12:00", "14:30", "10:00", "17:00"],
     /*22*/ ["Maluch", "Chwat", "Pudel", "Magda"],
     /*23*/ ["Ukraińskie oddziały kolaboracyjne walczące dla Niemców", "Ukraińskie oddziały kolaboracyjne walczące dla ZSRR", "Ukraińskie oddziały pod dowodzeniem AK", "Ukraińskie oddziały pod dowództwem Brytyjskim"],
@@ -64,6 +64,7 @@ let answers = [
     /*30*/ ["ZSRR", "Wielka Brytania", "USA", "III Rzesza"]
 
 ];
+
 let correctAnswer = ["" /*pierwsza pusta, litery z DUŻEJ */ ,
     /*1*/ "A",
     /*2*/ "D",
@@ -172,7 +173,7 @@ document.getElementById("nextQuestion").addEventListener("click", mainFunction);
 let l = 0;
 setInterval(() => {
 
-    if (l == 24) {
+    if (l == 21) {
         l = 0
     }
     document.getElementsByClassName("background")[0].style.background = `url(img/image${l}.jpg)`;
