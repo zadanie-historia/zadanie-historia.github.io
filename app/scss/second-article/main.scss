@@ -1,0 +1,37 @@
+.second-section{
+    display: flex;
+    flex-wrap: wrap;
+    &__header{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 2rem 0 1rem 0;
+        font-size: $fontSize + 0.4rem;
+        font-family: $fontMartel;
+    }
+    &__cont{
+        margin: 1rem 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__card{
+
+        text-align: center;
+        flex-wrap: wrap;
+        width: 26vw;
+    }
+    &__img{
+        width: 100%;
+    }
+    &__info{
+        box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.45);
+        width: 26vw;
+        height: 11rem;
+        background: #c2c2c2;
+        font-family: $fontSans;
+        padding: 1rem;
+        border-radius: 0 0 5px 5px;
+    }
+}

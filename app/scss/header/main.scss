@@ -1,0 +1,23 @@
+.header{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+    &__video{
+        width: 100vw;
+        z-index: -1;
+        object-fit: cover;
+        filter: brightness(0.4);
+        position: relative;
+    }
+    &__heading{
+        position: absolute;
+        z-index: 100;
+        top: 30%;
+        text-align: center;
+        width: 100%;
+        color: $colorWhite;
+        font-size: 3rem;
+        font-family: $fontRoboto;
+    }
+}

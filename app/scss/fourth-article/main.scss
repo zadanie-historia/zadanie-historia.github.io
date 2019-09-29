@@ -1,0 +1,60 @@
+.fourth-article{
+    display: flex;
+    flex-direction: column;
+    &__heading{
+        background: url("../img/articles/fourth-section.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        height: 26rem;
+    }
+    &__cont{
+        height: 26rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+    &__h2{
+
+        position: relative;
+        top: 30%;
+        margin-left: 20%;
+        font-family: $fontMartel;
+        border-bottom: 1px solid white;
+        text-shadow: 2px 2px 15px black;
+        color: $colorWhite;
+        font-size: $fontSize + 0.4rem;
+        width: 60%;
+        padding-left: 3%;
+    }
+    &__h4{
+        text-shadow: 2px 2px 15px black;
+        color: $colorWhite;
+        font-size: $fontSize - 0.5rem;
+        width: 60%;
+        padding-left: 3%;
+        position: relative;
+        top: 24%;
+        margin-left: 40%;
+        font-family: $fontMartel;
+    }
+    &__article{
+        height: 15rem;
+        width: 100%;
+        background: #3A3A3D;
+        
+
+    }
+    &__paragraph{
+        height: 85%;
+        padding: 0 1rem;
+        width: 95%;
+        color: $colorWhiteGrey;
+        font-family: $fontSans;
+        font-size: $fontSize - 0.4rem;
+        letter-spacing: 0.02rem;
+        line-height: 1.8rem;
+        margin-left: 1rem;
+        border-left: 3px solid $colorWhiteGrey;
+    }
+}

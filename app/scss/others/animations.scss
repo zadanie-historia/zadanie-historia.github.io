@@ -1,0 +1,14 @@
+.lazy-loading{
+    animation-name: lazy-loading;
+    animation-duration: 1.3s;
+    animation-timing-function: cubic-bezier(.71,.29,.65,1.59) ;
+}
+@keyframes lazy-loading{
+    from{
+        transform: translateY(25%);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

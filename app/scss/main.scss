@@ -1,0 +1,14 @@
+@import "others/variables.scss";
+@import "others/animations.scss";
+@import "first-article/main.scss";
+@import "second-article/main.scss";
+@import "third-article/main.scss";
+@import "fourth-article/main.scss";
+@import "quiz-section/main.scss";
+@import "header/main.scss";
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{margin: 0;}

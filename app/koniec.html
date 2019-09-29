@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/quiz.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
+    <title>quiz historia</title>
+</head>
+
+<body class="main-body">
+    <div class="container-end">
+        <div class="cont-end">
+            <div class="congrat"> Gratuluję, zdobyłeś/aś <span id="points"></span> punktów</div>
+            <div class="list">
+                <div class="list-title">Strona została wykonana przez:</div>
+                <ul>
+                    <li>grupę uczniów z klasy 4B</li>
+
+                </ul>
+            </div>
+            <a class="link" href="index.html">Wróć na stronę główną</a>
+        </div>
+    </div>
+    <script>
+        let points = window.localStorage.getItem("points");
+        document.getElementById("points").textContent = points;
+    </script>
+</body>
+
+</html>
