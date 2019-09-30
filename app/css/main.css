@@ -65,6 +65,22 @@
     padding: 1rem;
     border-radius: 0 0 5px 5px; }
 
+.slide-from-left {
+  animation-name: leftSlide;
+  animation-duration: 1.5s; }
+
+.slide-from-right {
+  animation-name: rightSlide;
+  animation-duration: 1.5s; }
+
+@keyframes leftSlide {
+  from {
+    transform: translateX(-100%); } }
+
+@keyframes rightSlide {
+  from {
+    transform: translateX(100%); } }
+
 .third-article {
   display: flex;
   flex-wrap: wrap;

@@ -1,16 +1,12 @@
 {
-  "name": "asd-kamieniarstwo",
+  "name": "zadanie-historia",
   "version": "1.0.0",
   "description": "single webpage for a customer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "asd",
-    "kamieniarstwo",
-    "website"
-  ],
+  "keywords": [],
   "author": "Dominik Obuch",
   "license": "MIT",
   "dependencies": {
