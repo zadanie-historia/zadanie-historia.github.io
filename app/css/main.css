@@ -73,6 +73,10 @@
   animation-name: rightSlide;
   animation-duration: 1.5s; }
 
+.slide-from-down {
+  animation-name: downSlide;
+  animation-duration: 1.5s; }
+
 @keyframes leftSlide {
   from {
     transform: translateX(-100%); } }
@@ -80,6 +84,10 @@
 @keyframes rightSlide {
   from {
     transform: translateX(100%); } }
+
+@keyframes downSlide {
+  from {
+    transform: translateY(100%); } }
 
 .third-article {
   display: flex;
@@ -92,6 +100,8 @@
     margin-bottom: 1rem; }
     .third-article__info--big {
       width: 60%; }
+    .third-article__info--large {
+      width: 97.5%; }
     .third-article__info--medium {
       width: 48%; }
     .third-article__info--small {

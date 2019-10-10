@@ -6,6 +6,10 @@ animation-duration: 1.5s;
 animation-name: rightSlide;
 animation-duration: 1.5s;
 }
+.slide-from-down{
+    animation-name: downSlide;
+    animation-duration: 1.5s;
+    }
 @keyframes leftSlide{
     from{
         transform: translateX(-100%);
@@ -14,5 +18,10 @@ animation-duration: 1.5s;
 @keyframes rightSlide{
     from{
         transform: translateX(100%);
+    }
+}
+@keyframes downSlide{
+    from{
+        transform: translateY(100%);
     }
 }

@@ -1,19 +1,20 @@
 let questions = ["" /*pierwsze ma być puste */ ,
-    /*1*/"W którym roku po raz pierwszy udało się rozszyfrować pierwsze zakodowane enigmą szyfrogramy?", 
-    /*2*/"Jak nazywał się autor enigmy?",
-    /*3*/"W którym roku została zaprezentowana enigma?", 
-    /*4*/"Jak nazywało się jedno z pierwszych narzędzi pomagających w rozszyfrowywaniu szyfrogramów enigmy?",
-    /*5*/"Kto był twórcą pierwszej bomby kryptologicznej",
-    /*6*/"Ile powstało wersji enigmy?",
-    /*7*/"Jaki był kryptonim enigmy w Wielkiej Brytanii?",
-    /*8*/"Ile czasu (pod koniec wojny) zajmowało zdekryptowanie niemieckiego meldunku nadanego po zaszyfrowaniu go za pomocą enigmy?",
-    /*9*/"W których latach informacja o rozszyfrowaniu enigmy została odtajniona?",
-    /*10*/"Ile kombinacji szyfrów mogło powstać za pomocą enigmy?"
+    /*1*/"W którym roku po raz pierwszy udało się rozszyfrować pierwsze zakodowane Enigmą szyfrogramy?", 
+    /*2*/"Jak nazywał się autor Enigmy?",
+    /*3*/"W którym roku została zaprezentowana Enigma?", 
+    /*4*/"Jak nazywało się jedno z pierwszych narzędzi pomagających w rozszyfrowywaniu szyfrogramów Enigmy?",
+    /*5*/"Kto Stworzył cyklometr?",
+    /*6*/"Ile powstało wersji Enigmy?",
+    /*7*/"Jaki był kryptonim Enigmy w Wielkiej Brytanii?",
+    /*8*/"Ile czasu (pod koniec wojny) zajmowało zdekryptowanie niemieckiego meldunku nadanego po zaszyfrowaniu go za pomocą Enigmy?",
+    /*9*/"W których latach informacja o rozszyfrowaniu Enigmy została odtajniona?",
+    /*10*/"Ile kombinacji szyfrów mogło powstać za pomocą Enigmy?",
+    /*11*/"Kogo nazywamy ojcem informatyki?"
 ]; // po przecinku dodajesz pytania
 let answers = [
     [ /*to ma być puste */ ],
     /*1*/ ["1941","1939","1932","1914"],
-    /*2*/ ["  Artur Scherbius","Ernest Richard","Boris Hagelin","Adolf Hitler"],
+    /*2*/ ["Artur Scherbius","Ernest Richard","Boris Hagelin","Adolf Hitler"],
     /*3*/ ["1928","1923","1917","1918"],
     /*4*/ ["Płachta Zygalskiego","Bomba Turinga","Cyklometr","Karty charakterystyk"],
     /*5*/ ["Alan Turing","Henryk Zygalski","Marian Rejewski","Jerzy Różycki"],
@@ -21,7 +22,8 @@ let answers = [
     /*7*/ ["Ultra","Secret","Crypto","Mystery"],
     /*8*/ [" 2 - 4 godziny","1 - 2 dni","3 - 4 dni","15 minut"],
     /*9*/ ["Lata 50","Lata 60","Lata 70","Lata 80"],
-    /*10*/ ["15 x 10^10","18 x 10^15","12 x 10^20","15 x 10^18"]
+    /*10*/ ["15 x 10^10","18 x 10^15","12 x 10^20","15 x 10^18"],
+    /*11*/ ["Alana Turinga","Gajusz Juliusz Cezar","Henryka Zygalskiego","Mariana Rejewskiego"]
 
 ];
 
@@ -35,7 +37,8 @@ let correctAnswer = ["" /*pierwsza pusta, litery z DUŻEJ */ ,
     /*7*/ "A",
     /*8*/ "B",
     /*9*/ "C",
-    /*10*/ "D"
+    /*10*/ "D",
+    /*11*/ "A"
 ];
 
 
