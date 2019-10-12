@@ -3,9 +3,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background: $colorWhiteGrey;
 
     &__info {
         display: flex;
+        z-index: 1;
         height: 15rem;
         flex-direction: column;
         margin-bottom: 1rem;
@@ -35,7 +37,7 @@
     }
 
     &__heading {
-        border-bottom: 3px solid white;
+        border-bottom: 3px solid $colorWhiteGrey;
         width: 70%;
         margin: 1rem;
         margin-top: 2rem;

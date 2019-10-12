@@ -86,7 +86,7 @@
     -webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.45);
     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.45);
     width: 26vw;
-    height: 11rem;
+    height: 14rem;
     background: #c2c2c2;
     font-family: "Open Sans", sans-serif;
     padding: 1rem;
@@ -147,11 +147,13 @@
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around; }
+  justify-content: space-around;
+  background: #F2F2F2; }
   .third-article__info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    z-index: 1;
     height: 15rem;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -176,7 +178,7 @@
     filter: brightness(0.4);
     width: inherit; }
   .third-article__heading {
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #F2F2F2;
     width: 70%;
     margin: 1rem;
     margin-top: 2rem;
